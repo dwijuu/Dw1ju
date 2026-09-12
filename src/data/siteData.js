@@ -9,7 +9,7 @@
 
 export const siteData = {
   // 상단 윈도우 타이틀바 텍스트
-  windowTitle: "Your Text Here (´▽`)♪",
+  windowTitle: "♪",
 
   // 이미지 매핑 테이블
   // 이미지 파일은 /assets/images/ 폴더의 숫자 기반 파일명을 기본으로 합니다.
@@ -28,9 +28,9 @@ export const siteData = {
 
   // 상단 탭 목록 (레퍼런스의 "Button", "Button", "Button" 구조)
   tabs: [
-    { id: "main", label: "Button" },
-    { id: "works", label: "Button" },
-    { id: "archive", label: "Button" }
+    { id: "main", label: "Home"},
+    { id: "works", label: "Works" },
+    { id: "archive", label: "Etc" }
   ],
 
   // Flash MX 타임라인 헤더 설정
@@ -47,19 +47,19 @@ export const siteData = {
   // ====================================================================
   profile: {
     // 콤보박스 라벨 및 드롭다운 내용
-    dropdownLabel: "About Me",
+    dropdownLabel: "More",
     dropdownItems: [
-      "Status: Online (2000s mood)",
-      "Location: Cyberspace",
-      "Specialty: Digital Crafting",
-      "Tool: Flash MX / Photoshop 7.0"
+      "BD: 8/30",
+      "Language: KR/JP/EN",
+      "Work: 3Dmodeler/Digital Artist",
+      "Tool: Blender/Adobe Ai"
     ],
 
     // 2열 속성 테이블 (Type / Info)
     infoTable: [
-      { type: "name", info: "here" },
-      { type: "id", info: "here" },
-      { type: "prns", info: "here" }
+      { type: "name", info: "Dwiju" },
+      { type: "X id", info: "@Dwijuu" },
+      { type: "Like", info: "Sleep" }
     ],
 
     // 프로필 하단 썸네일 캡션
@@ -77,12 +77,12 @@ export const siteData = {
     notes: {
       fileName: "Notes.txt",
       headlineLink: {
-        text: "Carrd by xiu.carrd.co",
-        url: "https://xiu.carrd.co"
+        text: "Today's Song",
+        url: "https://youtu.be/zkNzxsaCunU?si=b6xkwjhB2uSxO6lV"
       },
-      content: "reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Deserunt mollit anim..",
+      content: "해결 안되면 영원히 자버리면 그만이야...",
       links: [
-        { label: "link 1", url: "#link1" },
+        { label: "wonnol", url: "https://dwijuu.github.io/wonnol/" },
         { label: "link 2", url: "#link2" },
         { label: "link 3", url: "#link3" }
       ]
@@ -90,11 +90,11 @@ export const siteData = {
 
     // 아래쪽 텍스트 박스 (Interests.txt)
     interests: {
-      fileName: "Interests.txt",
-      content: "Check xiu.carrd.co or xiu2.carrd.co before using as inspo, consec tetur adip elit, sed do eiusmod tempor inci didunt.",
+      fileName: "About me.txt",
+      content: "어쩌고저쩌고",
       footerButton: {
-        label: "by xiu.carrd.co (¯¬¯)",
-        url: "https://xiu.carrd.co"
+        label: "무슨 일이 일어나고 있나요?",
+        url: "https://namu.wiki/w/%EC%A0%A4%EB%8B%A4%EC%9D%98%20%EC%A0%84%EC%84%A4"
       }
     }
   },
@@ -134,20 +134,17 @@ export const siteData = {
     title: "Portfolio.exe",
     intro: "Selected works & interactive projects (2000-2026).",
     items: [
-      { id: 1, title: "Project_Alpha.swf", imageKey: "gallery1", desc: "Interactive Flash experience with sound" },
-      { id: 2, title: "Bitmap_World.gif", imageKey: "gallery2", desc: "Pixel art and vintage raster graphics" },
-      { id: 3, title: "SoundTrack_01.mid", imageKey: "gallery3", desc: "Chiptune & synthesizer composition" }
+      { id: 1, title: "01", imageKey: "gallery1", desc: "..." },
+      { id: 2, title: "02", imageKey: "gallery2", desc: "..." },
+      { id: 3, title: "03", imageKey: "gallery3", desc: "..." }
     ]
   },
 
   archiveTab: {
     title: "System_Log.txt",
     lines: [
-      "SYSTEM BOOT: OK",
-      "KERNEL: 2.4.18-retro",
-      "VRAM: 64MB DirectDraw 8.1",
-      "THEME: Windows Classic / Macromedia Studio",
-      "STATUS: All components active and responsive."
+      "SLEEPING SYSTEM... FINE",
+      "Test",
     ]
   }
 };
